@@ -1,5 +1,6 @@
 ---
 # tasks file for ruby
 - name: install ruby
-  yum: name=ruby-{{ ruby_version }} state=installed
+  yum: name=ruby state=installed
+#  yum: name=ruby-{{ ruby_version }} state=installed
 
